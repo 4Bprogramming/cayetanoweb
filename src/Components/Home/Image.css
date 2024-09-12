@@ -1,0 +1,52 @@
+.ImageTopFooter {
+  background-image: url("../../assets/ppal.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.ImageTopFooter img {
+  width: 100%;
+  height: 100%;
+}
+.TextIMG {
+  display: none;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  align-items: center;
+  font-size: 70px;
+  color: white;
+  text-shadow: 5px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black,
+    0px -1px 0px black;
+}
+
+@media only screen and (max-width: 820px) {
+  .ImageTopFooter {
+    height: 400px;
+  }
+  .ImageTopFooter img {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .ImageTopFooter {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ImageTopFooter {
+    height: 450px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .ImageTopFooter {
+    height: 400px;
+    width: 100%;
+  }
+}
