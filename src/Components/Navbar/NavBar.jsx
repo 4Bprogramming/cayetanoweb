@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BurgerMenuButton from "./BurgerMenuButton";
-import logo from "../../assets/newlogo.png";
+import logo from "../../assets/logo.png";
 import './NavBar.css'
 
 function NavBar() {
@@ -14,12 +14,12 @@ function NavBar() {
 
   return (
     <div className="navbarCCS">
-      <header className=" bg-primary fixed z-10 w-full shadow-lg box-shadow:1px 2px 15px rgba(100,100,100,0.3)">
-        <nav className="flex flex-row-reverse relative h-32  justify-between items-center px-7 py-4  sm:flex-row md:max-w-5xl md:m-auto  ">
+      <header className=" bg-primary fixed z-8 w-full shadow-lg box-shadow:1px 2px 15px rgba(100,100,100,0.3)">
+        <nav className="flex flex-row-reverse relative h-30  justify-between items-center px-7 py-4  sm:flex-row md:max-w-5xl md:m-auto  ">
           <Image
             src={logo}
             alt="Bajda Logo"
-            style={{ width: "200px", height: "140px" }}
+            style={{ width: "150px", height: "60px" }}
           />
 
           <ul
