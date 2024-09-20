@@ -6,13 +6,18 @@ import EmblaCarousel from '../Carousel/EmblaCarousel'
 import '../Carousel/base.css'
 import '../Carousel/embla.css'
 import '../Carousel/sandbox.css'
+import image1 from '../../assets/6.png'
+import image2 from '../../assets/logo.png'
+import image3 from '../../assets/mendoza.jpg'
+
 
 
 const OPTIONS = { axis: 'y', align: 'start' }
-const SLIDE_COUNT = 3
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+const SLIDES = [image1, image2, image3]
+
 
 function Home() {
+
 
 
   return (
